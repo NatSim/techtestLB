@@ -57,7 +57,7 @@ a {
   padding: 25px;
 }
 
-.about-anchor-parent {
+div.about-anchor-parent {
   text-align: center;
   border: black;
   border-style: solid;
@@ -92,8 +92,46 @@ a {
   }
 }
 
-#box-content-spacing {
+div #box-content-spacing {
   padding: 35px 20px 10px 20px;
   display: flex;
   justify-content: center;
+}
+
+div p.box-midtext-control {
+  font-size: 20px;
+}
+
+section.work-with-container-parent {
+  margin: 100px 0px 0px 0px;
+}
+
+section.work-with-container-parent > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 50px 0px 100px 0px;
+}
+
+section.work-with-container-parent > h2 {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+
+div.services-anchor-parent {
+  text-align: center;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  width: fit-content;
+  width: 8em;
+  padding: 10px 0px 10px 0px;
+}
+
+div.nation-margin-container {
+  margin: 0px 75px 0px 75px;
+}
+div.nation-padding-control {
+  margin: 50px 0px 50px 0px;
 }
