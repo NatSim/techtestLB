@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+/*main{
+color: white;
+}*/
+
 #navbar {
   list-style: none;
   display: flex;
@@ -73,6 +77,7 @@ div.about-anchor-parent {
   display: flex;
   justify-content: space-evenly;
   margin: 100px 0px 0px 0px;
+  color: black;
 }
 
 .box-container-control {
