@@ -39,9 +39,9 @@ a {
   border-style: solid;
   border-width: 2px;
   width: fit-content;
-
   width: 8em;
   padding: 10px 25px 10px 25px;
+  color: white;
 }
 
 #envira-logo-top-left {
@@ -49,6 +49,7 @@ a {
 }
 .background-image-women {
   background-image: url("../images/banners/header_unsplash_dummy.jpg");
+  background-size: cover;
   /* height: 500px;
   width: auto; */
 }
