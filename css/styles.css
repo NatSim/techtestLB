@@ -18,11 +18,15 @@ li > a {
   color: white;
 }
 @media only screen and (max-width: 802px) {
-  #navbar {
-    flex-wrap: wrap;
+  li > a {
+    display: none;
   }
 }
-
+@media only screen and (min-width: 802px) {
+  li > i {
+    display: none;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -79,6 +83,7 @@ h1,
 }
 
 /*Title Feel the Enviva*/
+
 .title-text-centre-control {
   font-size: 50px;
   display: flex;
@@ -92,12 +97,17 @@ h1,
 .title-main-text-area-control {
   text-align: center;
 }
+
 .title-main-text-area-parent {
   font-size: 20px;
   padding: 20px 0px 20px 0px;
   line-height: 0.5;
 }
-
+@media only screen and (max-width: 802px) {
+  .title-main-text-area-parent {
+    line-height: normal;
+  }
+}
 div.about-anchor-parent {
   text-align: center;
   border: white;
