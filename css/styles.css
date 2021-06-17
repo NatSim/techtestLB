@@ -125,7 +125,7 @@ div.about-anchor-parent > a {
 
 .box-container-control {
   border-style: solid;
-  height: 300px;
+  height: auto;
   width: 300px;
   box-shadow: 10px 10px 5px grey;
   border: 1px solid #c3c3c3;
@@ -133,6 +133,7 @@ div.about-anchor-parent > a {
   flex-wrap: wrap;
   align-content: center;
   text-align: center;
+  background-color: white;
 }
 @media only screen and (max-width: 802px) {
   .box-info-container-parent {
@@ -141,12 +142,16 @@ div.about-anchor-parent > a {
 }
 
 div #box-content-spacing {
-  padding: 35px 20px 0px 20px;
-  display: flex;
+  /*padding: 35px 20px 0px 20px; */
   justify-content: center;
   background-color: white;
 }
 
+img#box-content-spacing {
+  max-width: 100%;
+  width: 150px;
+  padding: 25px 0px 25px;
+}
 div p.box-midtext-control {
   font-size: 20px;
 }
@@ -167,6 +172,12 @@ section.work-with-container-parent > h2 {
   text-align: center;
   color: green;
   font-size: 20px;
+}
+
+.work-with-logo-size {
+  width: 150px;
+  height: auto;
+  max-width: 100%;
 }
 
 .background-image-lorry-driver {
